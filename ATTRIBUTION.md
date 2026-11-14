@@ -6,7 +6,7 @@
 
 > **Owned and led by Alex K. / Alex Argüelles · hosted by Cyborg Garden**
 
-This attribution applies to the totality of the project: **pear, (s)pear, the commons, and the potential forum-like / wider civil-society audience concepts**. It is not limited to this interactive demo.
+This attribution applies to the totality of the project: **pear, peel, The Commons, and the potential forum-like / wider civil-society audience concepts**. It is not limited to this interactive demo.
 
 The project is practitioner-led work owned and led by Alex K. / Alex Argüelles, with conceptual and technical assistance from Hermes NimbleCo. The demo repository is intended to be hosted publicly through Alex's GitHub account; Cyborg Garden hosting and ecosystem support remain part of the confirmed project attribution.
 
@@ -30,7 +30,7 @@ For adapted material, indicate that changes were made and comply with the applic
 
 ## Boundaries that remain
 
-- pear and (s)pear are working names; name and trademark clearance has not been performed.
+- pear and peel are working names; name and trademark clearance has not been performed.
 - Practitioner, reviewer, affected-community, funder, and future contributor credits must be added only with accurate information and permission where required.
 - Governance and decision authority are not replaced by the choice of an open license.
 - This repository contains intentionally fictional demo material only. Real worker reflections, service-user narratives, case identifiers, confidential proposals, credentials, and personal data must not be added.

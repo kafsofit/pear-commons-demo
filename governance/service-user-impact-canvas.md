@@ -3,7 +3,7 @@
 **Purpose:** challenge a proposed capability before implementation. This canvas is not consent, legal advice, an ethics approval, or evidence that deployment is justified.
 
 **Capability:**  
-**Proposed product:** `pear / (s)pear / separately governed commons`  
+**Proposed product:** `pear / peel / The Commons` 
 **Assessment owner and accountable decision-makers:**  
 **Status:** `not proposed / rejected / investigation / limited test / suspended`
 

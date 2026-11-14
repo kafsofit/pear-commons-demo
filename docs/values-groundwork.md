@@ -1,7 +1,7 @@
 # Augmentation not replacement: support for those who care
 
 **Project-wide values groundwork · drafted from Alex K's direction on 6 November 2026**  
-**Applies to:** pear, (s)pear, the practitioner commons, and the potential forum-like / wider civil-society horizon.  
+**Applies to:** pear, peel, The Commons, and the potential forum-like / wider civil-society horizon.  
 **Status:** practitioner-led design commitment for discussion and refinement, not a claim of validated protection or effectiveness.
 
 ## Polished formulation
@@ -20,7 +20,7 @@ pear's tools can support that collective work by creating room for reflection, c
 
 Nor may pear turn solidarity into a monitored workplace programme, map workers' relationships for management, or make participation in collective care a condition of receiving support.
 
-The practitioner commons may help workers deliberately share practice knowledge and learn across differences, but it must not assume consensus or erase conflict. Solidarity requires room for dissent, accountability, boundaries, and the refusal to disclose. Its value lies in strengthening workers' relationships and collective agency—not in producing engagement metrics or making individuals easier to manage.
+The Commons may support human discussion, peer support, and deliberately shared practice knowledge across differences, but it must not assume consensus or erase conflict. Solidarity requires room for dissent, accountability, boundaries, and the refusal to disclose. Its value lies in strengthening workers' relationships and collective agency; not in producing engagement metrics, simulating peer support with AI, or making individuals easier to manage.
 
 ## What the metaphor must not imply
 
@@ -34,7 +34,7 @@ Safety gear does not make an unsafe workplace acceptable. It must not be used to
 2. **Capability, not dependency.** A worker must be able to decline, pause, leave, work more slowly, seek more human support, or continue without the tool without penalty or reduced access to care.
 3. **Shared duties of care.** Supporting workers must not weaken the dignity, safety, agency, or support of the person seeking help. Worker benefit and support-requester benefit require separate evaluation.
 4. **Consent with material alternatives.** Workers and support requesters need accessible information, meaningful choice, correction and challenge routes, and a human/tool-free path where relevant. Refusal must not degrade care. Consent does not justify unnecessary collection or secondary use; avoidable data flows should be declined.
-5. **Support across the project's forms.** pear can stand alone; (s)pear remains conditional and separately governed; commons contribution is deliberate rather than extracted from private reflection. Connection must never be the price of basic support.
+5. **Support across the three lanes.** pear remains a complete, standalone, non-AI foundation with optional access to The Commons; peel is a local, lightweight AI companion that workers may inspect, refuse, correct, or reset; The Commons holds human discussion, peer support, and deliberately shared knowledge rather than material extracted from private reflection. Neither mandatory AI use nor forced connection must ever be the price of basic support.
 6. **Organisations retain responsibility.** pear cannot replace human colleagues, collective care, safe workloads, protected reflection time, non-punitive escalation, or accountable institutions.
 7. **Care supports collective power.** pear may facilitate connection, shared learning, and mutual support, but must not map relationships for management, measure solidarity as engagement, or make collective participation compulsory. Workers retain room for dissent, boundaries, accountability, and refusal.
 

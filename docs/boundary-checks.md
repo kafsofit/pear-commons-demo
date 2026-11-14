@@ -29,4 +29,4 @@ The unmodified implementation then passed the full suite. These checks show that
 
 ## Evidence not yet available
 
-Practitioner approval of content, lived-experience/service-user evaluation, cultural and language review, full accessibility audit, threat-model review, production encryption/key custody, multi-user isolation, backup/deletion proof, secure update process, legal/ethical assessment, clinical or real-world benefit, and the conditions under which any (s)pear capability would be justified.
+Practitioner approval of content, lived-experience/service-user evaluation, cultural and language review, full accessibility audit, threat-model review, production encryption/key custody, multi-user isolation, backup/deletion proof, secure update process, legal/ethical assessment, clinical or real-world benefit, and the conditions under which any future real-case, direct-care, or service-user-facing capability would be justified.

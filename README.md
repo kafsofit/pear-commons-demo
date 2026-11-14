@@ -11,9 +11,39 @@
 **Live demo:** https://kafsofit.github.io/pear-commons-demo/  
 **Project source:** https://github.com/kafsofit/pear-commons-demo
 
-The live link will work after the repository is public and GitHub Pages is enabled. For local review, unzip the package and open `index.html` directly in a modern browser; no server or installation is required.
+The demo is publicly available through GitHub Pages. You can also run this same package locally: open `index.html` directly in a modern browser; no server or installation is required.
 
 Choose **Try the interactive walkthrough** to follow one worker journey: Prepare → Navigate → Close. Choose **Inspect the evidence** to see which implementation behaviors have been tested and which claims remain unvalidated.
+
+## Ecosystem and implementation status
+
+This repository currently contains **pear**, the standalone, non-AI,
+worker-controlled foundation for preparation, private reflection,
+and closure. pear can provide optional access to The Commons through
+deliberate worker actions, while remaining useful without AI, network
+access, or Commons participation.
+
+The wider ecosystem has three lanes:
+
+- **pear:** the standalone, non-AI foundation demonstrated here.
+- **peel:** the local, lightweight AI companion to be developed with
+  workers. It would adapt support alongside each worker's chosen
+  journey, practice, language, access needs, and boundaries. peel is
+  not implemented in this demo and must never become a requirement
+  for using pear.
+- **The Commons:** the collective layer for human discussion, peer
+  support, and deliberately authored and reviewed practice knowledge.
+  It is a future community space, not an implemented feature of this
+  demo or a destination for automatic journal publication.
+
+These lanes may connect through explicit, inspectable worker choices.
+Private reflections must not automatically become AI prompts, training
+data, Commons contributions, or organizational intelligence. Human
+peer support in The Commons must not be confused with peel: peel does
+not simulate a peer or replace human relationships.
+
+See the [ecosystem architecture](docs/ecosystem.md) for the current
+implementation boundary and future direction.
 
 ## What pear is exploring
 
@@ -51,7 +81,8 @@ Passing implementation checks is not evidence of clinical effectiveness, occupat
 
 The fictional scenario and prompt language are **not practitioner-approved training content**. Practitioner and affected-community review, independent privacy/accessibility assessment, and real-world evaluation remain future work.
 
-**(s)pear is not implemented here.** Any future co-pilot, real-case workflow, model processing, handoff, or service-user mediation requires separate authority, governance, consent, evidence, and stop conditions.
+**Neither peel nor The Commons are implemented here.** The current demo
+contains only pear's non-AI concept walkthrough and a read-only fictional resource. Any future real-case processing, direct-care workflow, or service-user mediation requires separately established authority, governance, consent, evidence, and stop conditions.
 
 ## Repository structure
 
