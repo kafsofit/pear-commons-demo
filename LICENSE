@@ -1,0 +1,36 @@
+# pear licensing map
+
+Copyright © 2026 Alex K. / Alex Argüelles, for original pear project material, except where a separate third-party notice applies.
+
+Project attribution:
+**Owned and led by Alex K. / Alex Argüelles · hosted by Cyborg Garden**
+
+## Original source code
+
+Original pear HTML, CSS, and JavaScript source code created for this project is licensed under the **Mozilla Public License 2.0 (MPL-2.0)**.
+
+This includes original files in `prototype/` other than bundled third-party dependencies, the root `index.html`, and original test code in `tests/`.
+
+See `LICENSE-CODE-MPL-2.0.txt` or https://mozilla.org/MPL/2.0/.
+
+The Exhibit B “Incompatible With Secondary Licenses” notice is **not** applied.
+
+## Original documentation and design material
+
+Original prose, research/design documents, governance templates, fictional scenarios, and original visual/design material are licensed under **Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**.
+
+This includes authored material in `docs/`, `governance/`, `content/`, `README.md`, and `ATTRIBUTION.md`.
+
+See `LICENSE-DOCS-CC-BY-SA-4.0.txt` or https://creativecommons.org/licenses/by-sa/4.0/.
+
+For adapted material, provide appropriate credit, link the applicable license, and indicate changes. CC BY-SA adaptations must use the same or a compatible license as required by its terms.
+
+## Third-party material
+
+The bundled `pdf-lib` library is **not** pear's original code and is **not relicensed** under MPL or CC BY-SA. It remains under the MIT License, Copyright © 2019 Andrew Dillon. Its full notice is retained at `prototype/vendor/pdf-lib-LICENSE.txt`.
+
+## Identity and other rights
+
+Neither MPL 2.0 nor CC BY-SA 4.0 grants trademark rights. The pear name, logo, and visual identity are not dedicated to the public domain by this licensing choice. Do not imply endorsement by Alex K. / Alex Argüelles or Cyborg Garden.
+
+Nothing in this package licenses real worker or service-user information; no such material is intentionally included. Privacy, publicity, moral, and other rights may apply independently of copyright.

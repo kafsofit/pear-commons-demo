@@ -1,0 +1,203 @@
+<!doctype html>
+<!-- This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0.
+     If a copy of the MPL was not distributed with this file, You can obtain one at https://mozilla.org/MPL/2.0/. -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'none'; form-action 'none'; base-uri 'none'; object-src 'none'; frame-ancestors 'none'">
+  <title>pear · worker-controlled support infrastructure</title>
+  <link rel="stylesheet" href="prototype/styles.css">
+  <script defer src="prototype/core.js"></script>
+  <script defer src="prototype/scenarios.js"></script>
+  <script defer src="prototype/vendor/pdf-lib.min.js"></script>
+  <script defer src="prototype/exports.js"></script>
+  <script defer src="prototype/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to walkthrough</a>
+  <header class="site-header">
+    <div class="brand-wrap">
+      <div class="brand-mark" aria-hidden="true">p</div>
+      <div><p class="brand">pear</p><p class="brand-sub">worker-controlled support infrastructure</p></div>
+    </div>
+    <div class="local-badge"><span aria-hidden="true">●</span> On this browser · no model active</div>
+  </header>
+
+  <div class="concept-banner" role="note">
+    <strong>Concept prototype · fictional material only.</strong>
+    Not for crisis response or live service-user records. No clinical or privacy validation.
+  </div>
+
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Walkthrough sections">
+      <p class="eyebrow">YOUR WORKSPACE</p>
+      <nav aria-label="Prototype views">
+        <button class="nav-item" data-view="about" aria-current="page"><span>00</span> Why pear</button>
+        <button class="nav-item current" data-view="prepare"><span>01</span> Prepare</button>
+        <button class="nav-item" data-view="navigate"><span>02</span> Navigate</button>
+        <button class="nav-item" data-view="close"><span>03</span> Close</button>
+        <button class="nav-item" data-view="resource"><span>04</span> Resource</button>
+        <button class="nav-item" data-view="evidence"><span>05</span> Evidence</button>
+      </nav>
+      <div class="sidebar-boundary">
+        <h2>Separate lanes</h2>
+        <p>Your reflection never becomes a resource automatically. This prototype has no publishing feature.</p>
+      </div>
+      <div class="exit-actions">
+        <button class="text-button" data-action="pause">Pause / support options</button>
+        <button class="text-button danger-text" data-action="end">Finish without saving</button>
+      </div>
+    </aside>
+
+    <main id="main" tabindex="-1">
+      <section class="status-strip" aria-label="Storage status">
+        <div><span class="status-dot" aria-hidden="true"></span><strong id="save-status">Unsaved · working in memory</strong></div>
+        <button class="small-button" data-action="storage">What this means</button>
+      </section>
+      <div id="storage-warning" class="privacy-note persistent-warning" role="alert" hidden></div>
+
+      <div id="view-about" class="view">
+        <div class="reviewer-hero">
+          <p class="eyebrow">WORKER-CONTROLLED INFRASTRUCTURE · INTERACTIVE CONCEPT</p>
+          <h1>Support for those<br>who care for others.</h1>
+          <p class="hero-lede">What if technology helped care workers pause, reflect, find human support, and organise—rather than making them endlessly available, measurable, and exposed?</p>
+          <div class="hero-actions">
+            <button class="primary-button" data-action="start-demo">Try the interactive walkthrough <span aria-hidden="true">→</span></button>
+            <button class="secondary-button" data-view="evidence">Inspect the evidence</button>
+          </div>
+          <p class="hero-note"><strong>Local-first by design.</strong> No account, model, analytics, or network connection required. Fictional material only.</p>
+        </div>
+
+        <section class="problem-statement" aria-labelledby="problem-title">
+          <p class="eyebrow">THE PROBLEM</p>
+          <h2 id="problem-title">Care is becoming a data-extraction surface.</h2>
+          <p>Small helplines, peer-support collectives, and civil-society organizations are being sold tools that automate intake, score workers, and learn from sensitive encounters. pear asks a different question: <strong>what support should travel with the worker?</strong></p>
+        </section>
+
+        <section class="boundary-showcase" aria-labelledby="boundary-title">
+          <div class="section-heading"><div><p class="eyebrow">THE TECHNICAL PROPOSITION</p><h2 id="boundary-title">Restraint you can inspect.</h2></div><p>Not a wellness chatbot. Not automated crisis response. A working demonstration of boundaries that other support technology can test and adopt.</p></div>
+          <div class="boundary-grid">
+            <article><span class="boundary-number">01</span><h3>No hidden extraction</h3><p>The core works offline. Editing does not silently save, publish, invoke a model, or contact an employer.</p><span class="test-tag">Tested: no external requests</span></article>
+            <article><span class="boundary-number">02</span><h3>Agency is a feature</h3><p>Pause, decline, seek human support, leave prompts blank, or continue without saving—without losing access to support.</p><span class="test-tag">Tested: refusal pathways</span></article>
+            <article><span class="boundary-number">03</span><h3>Honest copies and limits</h3><p>Saving, exporting, and deleting are distinct actions. Tested save/delete failures produce persistent warnings; export completion remains browser-controlled.</p><span class="test-tag">Tested: save/delete failure disclosure</span></article>
+          </div>
+        </section>
+
+        <section class="demo-route" aria-labelledby="route-title">
+          <p class="eyebrow">A REVIEWER'S ROUTE</p>
+          <h2 id="route-title">One worker journey. Four deliberate choices.</h2>
+          <ol>
+            <li><strong>Prepare</strong><span>Set an intention without an assessment or case details.</span></li>
+            <li><strong>Navigate</strong><span>Reflect optionally. Notice, context, resources, choice.</span></li>
+            <li><strong>Close</strong><span>Keep, revise, export, or delete—with explicit consequences.</span></li>
+            <li><strong>Inspect</strong><span>See which claims are tested and which remain unvalidated.</span></li>
+          </ol>
+        </section>
+
+        <aside class="honesty-panel">
+          <p class="eyebrow">STATUS, WITHOUT THE SALES PITCH</p>
+          <h2>A working concept—not a validated intervention.</h2>
+          <p>This demo proves interaction and specific software behaviors. It does not establish practitioner approval, clinical effectiveness, production privacy, occupational protection, or full accessibility. Its fictional practice content is pending practitioner and affected-community review.</p>
+          <button class="text-link" data-view="evidence">Read what the implementation checks establish →</button>
+        </aside>
+      </div>
+
+      <div id="view-evidence" class="view" hidden>
+        <p class="eyebrow">IMPLEMENTATION EVIDENCE · CANDIDATE REVIEW · 14 NOVEMBER 2026</p>
+        <h1>Claims with edges.</h1>
+        <p class="lede">pear’s safety commitments are useful only if they survive inspection. Here is what the current concept demonstrates—and what it deliberately does not claim.</p>
+        <section class="evidence-summary" aria-label="Verification summary">
+          <div><strong>Full suite</strong><span>checks passed in recorded run</span></div>
+          <div><strong>0</strong><span>external requests captured</span></div>
+          <div><strong>0</strong><span>automated axe violations in tested views</span></div>
+        </section>
+        <p class="evidence-caveat"><strong>Scope:</strong> state/storage unit checks, static boundary checks, and browser workflow/accessibility checks. The exact command and current result are recorded separately in the candidate verification record. This is implementation evidence, not clinical, occupational, production-security, or full accessibility validation.</p>
+        <div class="evidence-table-wrap">
+          <table class="evidence-table">
+            <caption>From design commitment to observable behavior</caption>
+            <thead><tr><th scope="col">Commitment</th><th scope="col">Observed in this demo</th><th scope="col">Still not established</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">No hidden network path</th><td>Full journey completed in Chromium with networking disabled; no external HTTP(S) request captured.</td><td>Browser extensions, operating-system activity, compromised runtimes, or future code changes.</td></tr>
+              <tr><th scope="row">Editing is not saving</th><td>Typing created no localStorage entry. Save required separate confirmation.</td><td>Browser memory, session restore, crash reporting, and device storage remain outside complete control.</td></tr>
+              <tr><th scope="row">Honest retention</th><td>Saved and newer unsaved versions remain distinct. Failed re-save and deletion produce persistent warnings.</td><td>Encryption, secure custody, physical erasure, backups, synced copies, and exported files.</td></tr>
+              <tr><th scope="row">Refusal remains possible</th><td>Pause, decline, end, blank answers, and continue-without-save paths exercised.</td><td>Whether real workers experience these options as safe, useful, or culturally appropriate.</td></tr>
+              <tr><th scope="row">No automatic Commons flow</th><td>No publishing action or private-to-shared transfer exists.</td><td>A Commons is not implemented; its governance, moderation, and safety remain unevaluated.</td></tr>
+              <tr><th scope="row">Accessibility attention</th><td>Zero automated axe violations across all six views, storage dialog, and export dialog in the recorded candidate run; keyboard and 390px checks.</td><td>Full WCAG conformance, every assistive technology, language, future state, and user need.</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <section class="mutation-note"><h2>The original boundaries were challenged too.</h2><p>During the original 6 November verification, temporary code mutations added automatic saving and a no-op deletion. The suite caught both: four tests failed for automatic save and two for no-op deletion. The unmodified implementation then passed the full suite. This is narrow mutation evidence, not exhaustive fault injection.</p></section>
+        <div class="primary-actions"><button class="primary-button" data-action="start-demo">Try the walkthrough <span aria-hidden="true">→</span></button></div>
+      </div>
+
+      <div id="view-prepare" class="view" hidden>
+        <p class="eyebrow">PREPARATION · NO CASE DETAILS</p>
+        <h1>Begin with your intention.</h1>
+        <p class="lede">A little orientation, without an assessment, a score, or a required disclosure.</p>
+        <article class="scenario-card">
+          <div class="scenario-heading"><div><p class="eyebrow">FICTIONAL PRACTICE FIXTURE</p><h2 id="scenario-title"></h2></div><span class="tag" id="scenario-status"></span></div>
+          <p id="scenario-summary"></p>
+          <div class="limit-note"><strong>Not practitioner-approved training content.</strong> This fixture exists to test the interaction, not to teach crisis response.</div>
+        </article>
+        <form id="preparation-form" class="reflection-form">
+          <label for="preparation" id="preparation-label"></label>
+          <p class="field-hint" id="preparation-hint">Optional. Do not enter names, case details, contact information, or other sensitive material.</p>
+          <textarea id="preparation" maxlength="6000" aria-describedby="preparation-hint" placeholder="For this fictional walkthrough, you might write: “I want to notice my assumptions and know where I can pause.”"></textarea>
+          <div class="field-footer"><span>Optional · up to 6,000 characters</span><span id="preparation-count">0 / 6000</span></div>
+        </form>
+        <div class="primary-actions"><button class="primary-button" data-action="to-navigate">Continue to navigation <span aria-hidden="true">→</span></button><button class="secondary-button" data-action="without-saving">Continue editing without saving</button></div>
+        <button class="example-button" data-action="fill-example"><span aria-hidden="true">✦</span> Reviewing? Fill this journey with a clearly labelled fictional example</button>
+        <p class="example-note">If you have already written anything, pear asks before replacing it. The example itself is not saved or exported and contains no real person, event, or service-user narrative.</p>
+      </div>
+
+      <div id="view-navigate" class="view" hidden>
+        <p class="eyebrow">PRIVATE NAVIGATION · OPTIONAL</p>
+        <h1>You map your experience.</h1>
+        <p class="lede">The tool does not map you. Leave any prompt blank; uncertainty and structural constraints belong here.</p>
+        <div class="privacy-note"><strong>Private is not risk-free.</strong> Unsaved work is held in memory, but browser/device behaviour is outside our control. Optional save is unencrypted browser storage. Never enter real case material.</div>
+        <form id="navigation-form" class="reflection-form"><div id="prompt-fields"></div></form>
+        <div class="choice-row" aria-label="Choices that remain available">
+          <button class="choice-button" data-action="pause">Ⅱ Pause</button>
+          <button class="choice-button" data-action="colleague">△ Plan colleague support</button>
+          <button class="choice-button" data-action="decline">× Decline reflection</button>
+          <button class="choice-button" data-action="end">□ End session</button>
+        </div>
+        <div class="primary-actions"><button class="secondary-button" data-action="to-prepare">← Preparation</button><button class="primary-button" data-action="to-close">Review and close <span aria-hidden="true">→</span></button></div>
+      </div>
+
+      <div id="view-close" class="view" hidden>
+        <p class="eyebrow">CLOSURE · YOUR CHOICE</p>
+        <h1>Keep, revise, export, or delete.</h1>
+        <p class="lede">Closure does not mean positivity, disclosure, or completion. You can leave with an unresolved reflection.</p>
+        <section class="review-card" aria-labelledby="review-title"><div class="review-heading"><h2 id="review-title">Your current reflection</h2><button class="small-button" data-action="to-navigate">Revise</button></div><div id="reflection-review"></div></section>
+        <div class="closure-grid">
+          <button class="closure-option" data-action="save"><strong>Save in this browser</strong><span>Explicit local save · unencrypted · fictional content only</span></button>
+          <button class="closure-option" data-action="export"><strong>Export reflections</strong><span>Current or demo archive · TXT, PDF, or JSON backup</span></button>
+          <button class="closure-option" data-action="without-saving"><strong>Continue editing without saving</strong><span>Return to your working reflection · no intentional durable write</span></button>
+          <button class="closure-option danger-option" data-action="delete"><strong>Delete current entry</strong><span>Confirmation required · exports remain outside app control</span></button>
+        </div>
+        <div class="primary-actions closure-actions"><button class="secondary-button" data-action="to-navigate">← Continue editing</button><button class="secondary-button" data-action="end">Finish without saving</button><button class="primary-button" data-action="save-finish">Save and finish</button></div>
+      </div>
+
+      <div id="view-resource" class="view" hidden>
+        <p class="eyebrow">RESOURCE LANE · READ ONLY</p>
+        <h1>Context travels with knowledge.</h1>
+        <p class="lede">A deliberately authored fixture with provenance and limitations—not a case archive or extracted reflection.</p>
+        <article class="resource-card"><div class="scenario-heading"><div><p class="eyebrow">RESOURCE 0.1</p><h2 id="resource-title"></h2></div><span class="tag">Review pending</span></div><p id="resource-purpose"></p><h3>Limitations</h3><ul id="resource-limits"></ul><h3>Provenance and review</h3><dl id="resource-provenance"></dl></article>
+        <div class="privacy-note"><strong>No automatic commons flow.</strong> This resource cannot receive your journal, prompts, outputs, logs, or case material. A future commons requires separate governance and deliberately authored contributions.</div>
+      </div>
+
+      <noscript><div class="limit-note">JavaScript is required for this local interaction prototype. No information has been sent anywhere. The source documents remain readable without it.</div></noscript>
+    </main>
+  </div>
+
+  <footer class="site-footer"><span>Owned and led by <strong>Alex K. / Alex Argüelles</strong> · hosted by <strong>Cyborg Garden</strong> · confirmed by Alex K and Juniper Bevensee</span><span>Reviewer-demo candidate · 14 November 2026</span></footer>
+
+  <dialog id="app-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-inner"><p class="eyebrow" id="dialog-kicker">PEAR · YOUR CHOICE</p><h2 id="dialog-title"></h2><div id="dialog-body"></div><div class="dialog-actions" id="dialog-actions"></div></div>
+  </dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>
